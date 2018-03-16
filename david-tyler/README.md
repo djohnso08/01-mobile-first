@@ -25,5 +25,5 @@ coding starts with an over all layout and creating ur directories and folders.
 03-15-2018 10:59pm - site fits the user story criteria.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+<!-- David and Tyler worked on this 01Lab together. -->
 -->
