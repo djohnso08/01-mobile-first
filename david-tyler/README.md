@@ -14,13 +14,15 @@ coding starts with an over all layout and creating ur directories and folders.
  -->
 
 ## Architecture
-<!-- 
-Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+<!-- used SMACSS to organize CSS;
+ used CLEARFIX, to help detach children from their parents; 
+ used viewport to determine a screen width; 
+ used meta charset utf8 to specify character set -->
 
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+03-15-2018 10:59pm - site fits the user story criteria.
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->

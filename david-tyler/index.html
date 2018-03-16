@@ -7,14 +7,14 @@
   <meta name=“viewport” content=”width=device-width initial-scale=1.0>
 
   <!-- TODOne: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
 
   <!-- TODOne: Link in the provided styles/icons.css file so that you can use icon fonts -->
 <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
   <!-- TODOne: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" type="text/css"href="vendor/styles/base.css">
-  <link rel="stylesheet" type="text/css" href="vendor/styles/layout.css">
-  <link rel="stylesheet" type="text/css" href="vendor/styles/module.css">
+  <link rel="stylesheet" type="text/css"href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.back.css">
+  <link rel="stylesheet" type="text/css" href="styles/module.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- you want them to load in the order they will be needed to call upon.  so the overall styles come first and each one is more detailed than the last.  they rely on the one before them -->
@@ -40,7 +40,7 @@
     <nav class="main-nav">
       <!-- TODONE: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
       <div id="ham-menu" class="icon-menu hamburger"></div>
-      <ul id ="nav-menu" class="main-nav">
+      <ul id ="nav-menu" class="nav-ul">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
