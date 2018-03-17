@@ -13,11 +13,13 @@
 <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
   <!-- TODOne: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
   <link rel="stylesheet" type="text/css"href="styles/base.css">
-  <link rel="stylesheet" type="text/css" href="styles/layout.back.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
   <link rel="stylesheet" type="text/css" href="styles/module.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- you want them to load in the order they will be needed to call upon.  so the overall styles come first and each one is more detailed than the last.  they rely on the one before them -->
+  <!-- The loading of the stylesheets are applied in the order listed just like cascading styles in CSS.
+
+ -->
   
 
   <!-- REVIEW: This is the favicon -->
@@ -28,7 +30,7 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    <!-- clearfix is used here to keep the nav bar connected to the header.  when the screen gets to narrow the nav bar disapears into the hamburger -->
+    <!-- Clearfix is used because when a float is used the element is removed from the document flow. Clearfix forces a element to stack below the preceding floated elements.-->
 
     <section class="heading-group-h1">
       <h1>
@@ -43,8 +45,8 @@
       <ul id ="nav-menu" class="nav-ul">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+        <li class="tab"><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
   </header>
